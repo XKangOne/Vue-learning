@@ -1,23 +1,19 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import {RouterView} from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
 
 </script>
 
 <template>
-  <!-- <RouterView/> -->
-  <header>
+  <!-- <header>
 
     <div class="wrapper">
-      <!-- <HelloWorld msg="You did it!" /> -->
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink :to="{name:'todo'}">TodoList</RouterLink>
-        <!-- <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/my">My</RouterLink> -->
       </nav>
     </div>
-  </header>
+  </header> -->
   <main>
      <RouterView />
   </main>
@@ -28,26 +24,24 @@ import { RouterLink, RouterView } from 'vue-router'
   margin: 0;
   padding: 0;
 }
-header {
-  /* line-height: 1.5;
-  max-height: 100vh; */
+/* header {
   height: 70px;
   line-height: 70px;
   background-color: #b8d7f3;
-}
+} */
 
 /* .logo {
   display: block;
   margin: 0 auto 2rem;
 } */
-main{
+/* main{
   width: 90%;
   margin: 10px auto;
   padding: 10px;
   border: 1px solid #ccc;
   min-height: 70vh;
   border-radius: 4px;
-}
+} */
 
 /* nav {
   width: 100%;
@@ -56,7 +50,7 @@ main{
   margin-top: 2rem;
 } */
 
-nav a.router-link-exact-active {
+/* nav a.router-link-exact-active {
   color: var(--color-text);
 }
 
@@ -70,10 +64,9 @@ nav a {
   font-size: 20px;
   text-decoration: none;
   color: #fff;
-  /* border-left: 1px solid var(--color-border); */
-}
+} */
 
-nav a:first-of-type {
+/* nav a:first-of-type {
   border: 0;
 }
 
@@ -102,5 +95,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-}
+} */
 </style>

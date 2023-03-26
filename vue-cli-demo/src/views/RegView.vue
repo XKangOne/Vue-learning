@@ -23,13 +23,17 @@
                     <form id="new_session" action="/session" accept-charset="UTF-8" method="post">
                         <div class="input-prepend">
                             <img class="ic-user" src="../assets/个人.png" alt="">
-                            <input class="t1"  placeholder="手机号或邮箱" type="text">
+                            <input class="t1"  placeholder="你的昵称" type="text">
+                        </div>
+                        <div class="input-prepend1">
+                            <img class="ic-user" src="../assets/手机号.png" alt="">
+                            <input  class="t1"  placeholder="手机号" type="password">
                         </div>
                         <div class="input-prepend1">
                             <img class="ic-user" src="../assets/密码.png" alt="">
-                            <input  class="t1"  placeholder="密码" type="password">
+                            <input  class="t1"  placeholder="设置密码" type="password">
                         </div>
-                        <div class="footer-btn">
+                        <!-- <div class="footer-btn">
                             <div class="remeber-btn">
                                 <input type="checkbox" value="true" checked="checked">
                                 <spn>记住我</spn>
@@ -37,13 +41,17 @@
                             <div class="forget-btn">
                                 <a>登录遇到问题？</a>
                             </div>
-                        </div>
+                        </div> -->
                         <button class="sign-button" type="button" >
-                           <a href="/home">登录</a>
+                           <a href="/login">注册</a>
                         </button>
+                        <div>
+                            <p>点击 “注册” 即表示您同意并愿意遵守简书</p>
+                            <a target="_blank" href="/">用户协议</a> 和 <a target="_blank" href="/">隐私政策</a>
+                        </div>
                     </form>
                     <div>
-                        <img src="../assets/8.png" class="footer-img">
+                        <img src="../assets/9.png" class="footer-img">
                     </div>
                 </div>
             </div>
@@ -199,9 +207,9 @@ h4{
     margin-top: 20px;
     /* font-size: 18px; */
     color: #fff;
-    background-color: #3194d0;
-    box-shadow: 0px 0px 2px  #3194d0;
-    border: #3194d0;
+    background-color: #42c02e;
+    box-shadow: 0px 0px 2px  #42c02e;
+    border: #42c02e;
 }
 .sign-button a{
     font-size: 18px;
@@ -210,8 +218,8 @@ h4{
 }
 .footer-img{
     margin: 0 auto;
-    width: 250px;
-    height: 150px;
+    width: 320px;
+    height: 100px;
     background-size: 300px 300px;
 }
 </style>
